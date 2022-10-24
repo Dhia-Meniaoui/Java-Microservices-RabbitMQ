@@ -1,4 +1,4 @@
 package com.dhia.customer;
 
-public record CustomerRegistrationRequest(String name , String lastname , String email) {
+public record CustomerRegistrationRequest(String firstname , String lastname , String email) {
 }
