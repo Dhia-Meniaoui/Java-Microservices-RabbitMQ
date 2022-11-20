@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="fraud" />
         <module name="customer" />
+        <module name="Fraud" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Fraud" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>
