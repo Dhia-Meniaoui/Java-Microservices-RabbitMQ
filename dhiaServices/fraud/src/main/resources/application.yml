@@ -1,5 +1,20 @@
 server:
-  port: 8088
+  port: 8081
 spring:
   application:
-    name: clients
+    name:
+  datasource:
+    username: 'dhia'
+    url: jdbc:postgresql://localhost:5442/customer
+    password: '0'
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: create
+    show-sql: 'true'
+
+
+
