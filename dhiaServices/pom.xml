@@ -10,9 +10,9 @@
   <version>1.0-SNAPSHOT</version>
 
   <modules>
-    <module>customer</module>
-    <module>fraud</module>
-    <module>fraud</module>
+    <module>FlowOfControl</module>
+    <module>FlowOfData</module>
+    <module>Eureka-server</module>
   </modules>
 
   <name>dhiaServices</name>
@@ -25,6 +25,7 @@
     <maven.compiler.target>17</maven.compiler.target>
     <spring.boot.maven.plugin.version>2.7.4</spring.boot.maven.plugin.version>
     <spring.boot.dependecies.version>2.7.4</spring.boot.dependecies.version>
+    <spring.cloud.version>2020.0.3</spring.cloud.version>
   </properties>
 
 
@@ -36,6 +37,12 @@
         <version>${spring.boot.dependecies.version}</version>
         <scope>import</scope>
         <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring.cloud.version}</version>
+        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.yaml</groupId>
@@ -52,7 +59,6 @@
       <artifactId>lombok</artifactId>
       <version>1.18.24</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
