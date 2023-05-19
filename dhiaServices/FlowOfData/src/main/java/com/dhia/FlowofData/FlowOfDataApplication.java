@@ -1,13 +1,12 @@
-package com.dhia.customer;
-
+package com.dhia.FlowofData;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomerApplication {
+public class FlowOfDataApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CustomerApplication.class, args);
-        System.out.println("Hello world!");
+        SpringApplication.run(FlowOfDataApplication.class, args);
+        System.out.println("Start Fraud");
     }
 }

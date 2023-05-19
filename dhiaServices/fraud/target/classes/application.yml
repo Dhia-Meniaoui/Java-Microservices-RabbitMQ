@@ -5,7 +5,7 @@ spring:
     name:
   datasource:
     username: 'dhia'
-    url: jdbc:postgresql://localhost:5442/customer
+    url: jdbc:postgresql://localhost:5442/fraud
     password: '0'
   jpa:
     properties:
@@ -15,6 +15,7 @@ spring:
     hibernate:
       ddl-auto: create
     show-sql: 'true'
+
 
 
 

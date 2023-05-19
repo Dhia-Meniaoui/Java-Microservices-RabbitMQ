@@ -1,12 +1,13 @@
-package com.dhia.fraud;
+package com.dhia.FlowOfControl;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FraudApplication {
+public class FlowOfControlApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FraudApplication.class, args);
-        System.out.println("Start Fraud");
+        SpringApplication.run(FlowOfControlApplication.class, args);
+        System.out.println("Hello world!");
     }
 }
